@@ -99,8 +99,7 @@ pip install recbole
 
 ### Install from source
 ```bash
-git clone https://github.com/RUCAIBox/RecBole.git && cd RecBole
-pip install -e . --verbose
+pip install git+https://github.com/laxmimerit/RecBole.git --upgrade --force-reinstall
 ```
 
 ## Quick-Start
